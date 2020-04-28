@@ -1,0 +1,22 @@
+{
+  "name": "expo-ar",
+  "version": "0.0.0",
+  "description": "An Expo module for AR",
+  "main": "build/AR.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/expo-community/expo-ar.git"
+  },
+  "keywords": [
+    "expo",
+    "ar"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/expo-community/expo-ar/issues"
+  },
+  "homepage": "https://github.com/expo-community/expo-ar#readme"
+}
