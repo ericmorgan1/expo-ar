@@ -20,11 +20,34 @@
     "ar"
   ],
   "license": "MIT",
+  "unimodulePeerDependencies": {
+    "@unimodules/core": "*",
+    "unimodules-constants-interface": "*"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "dependencies": {
+    "@types/babel__core": "^7.1.7",
+    "@unimodules/core": "*",
+    "fbjs": "1.0.0",
+    "invariant": "2.2.4",
+    "prop-types": "^15.7.2",
+    "react": "*",
+    "react-native": "*",
+    "unimodules-constants-interface": "*"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "~8.1.0",
+    "expo-module-scripts": "~1.2.0",
+    "jest-expo": "^37.0.0"
+  },
+  "jest": {
+    "preset": "expo-module-scripts/enzyme"
+  },
   "bugs": {
     "url": "https://github.com/expo-community/expo-ar/issues"
   },
-  "homepage": "https://github.com/expo-community/expo-ar#readme",
-  "devDependencies": {
-    "expo-module-scripts": "^1.2.0"
-  }
+  "homepage": "https://github.com/expo-community/expo-ar#readme"
 }

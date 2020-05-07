@@ -1,4 +1,5 @@
-import Constants from 'expo-constants';
+//import Constants from 'expo-constants';
+import Constants from 'unimodules-constants-interface';
 import * as React from 'react';
 import {
   Dimensions,
